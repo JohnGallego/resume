@@ -1,0 +1,23 @@
+:root {
+	--color-hg-header: #41576c;
+	--color-bg-menu: #394759;
+	--color-bg-selection: #192131;
+	--color-bg-content: #1f2736;
+	--color-bg-content-contrast: #1c2433;
+	--color-text: #ccd3d9;
+	--color-text-contrast: #907d6e;
+}
+
+/* Global styles */
+html {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--color-bg-content);
+	color: #ccd3d9;
+}
