@@ -1,24 +1,35 @@
 <script>
-	// logic goes here
+	import PageHeaderMenuButton from '$lib/components/page-header-menu-button.svelte';
+	import Avatar from '$lib/components/page-header-avatar.svelte';
 </script>
 
 <header class="page-header">
+	<Avatar />
+
 	<div class="page-title">
 		<h1 class="name">John Gallego</h1>
 		<h2 class="job-title">Full-Stack Engineer</h2>
 	</div>
+
+	<PageHeaderMenuButton />
 </header>
 
 <style>
 	.page-header {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: flex-start;
 		padding: 1rem 1rem;
 		background-color: var(--color-hg-header);
 	}
 
+	.page-header > :global(.page-header-avatar) {
+		flex: 0 0 auto;
+		margin-right: 1.5rem;
+	}
+
 	.page-title {
+		flex: 1 1 auto;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -37,7 +48,7 @@
 	}
 
 	.job-title {
-        margin-top: 0.5em;
+		margin-top: 0.5em;
 		font-size: 1rem;
 		font-weight: 200;
 	}
