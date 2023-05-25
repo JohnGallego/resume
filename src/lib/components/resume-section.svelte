@@ -1,0 +1,34 @@
+<section class="resume-section">
+	<h1 class="title">
+		<slot name="title" />
+	</h1>
+
+	<slot name="content" />
+</section>
+
+<style>
+	.resume-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 100%;
+		max-width: 800px;
+	}
+
+	.title {
+		margin: 0 0 1rem 0;
+		font-size: 1rem;
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+
+	.title::after {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 1px;
+		background-color: var(--color-text-contrast);
+		position: relative;
+		top: 12px;
+	}
+</style>

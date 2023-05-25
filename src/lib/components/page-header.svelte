@@ -20,6 +20,7 @@
 		align-items: center;
 		justify-content: flex-start;
 		padding: 1rem 1rem;
+		width: 100%;
 		background-color: var(--color-hg-header);
 	}
 

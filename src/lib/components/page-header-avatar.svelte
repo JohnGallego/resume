@@ -1,5 +1,5 @@
 <script lang="ts">
-	import avatar from '$lib/assets/john-avatar.webp?run&&width=50;100&fit=cover&format=webp&quality=75';
+	import avatar from '$lib/assets/john-avatar.webp?run&width=50;100;150&format=webp&quality=75';
 	import Img from '@zerodevx/svelte-img';
 
 	function handleClick() {}
@@ -24,5 +24,16 @@
 		width: 50px;
 		height: 50px;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.page-header-avatar > :global(picture) {
+		width: 100%;
+		height: 100%;
+	}
+
+	.page-header-avatar :global(.avatar) {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 </style>
