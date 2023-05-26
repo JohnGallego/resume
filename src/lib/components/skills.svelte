@@ -55,9 +55,6 @@
 </div>
 
 <style>
-	.skills {
-	}
-
 	.title {
 		margin-bottom: 0.5rem;
 		font-size: 1rem;
