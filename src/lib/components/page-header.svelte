@@ -1,11 +1,9 @@
 <script>
 	import PageHeaderMenuButton from '$lib/components/page-header-menu-button.svelte';
-	import Avatar from '$lib/components/page-header-avatar.svelte';
+	import Avatar from '$lib/components/avatar.svelte';
 </script>
 
 <header class="page-header">
-	<Avatar />
-
 	<div class="page-title">
 		<h1 class="name">John Gallego</h1>
 		<h2 class="job-title">Full-Stack Engineer</h2>

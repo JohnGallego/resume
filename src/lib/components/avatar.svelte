@@ -5,12 +5,12 @@
 	function handleClick() {}
 </script>
 
-<button class="page-header-avatar" on:click={handleClick}>
-	<Img class="avatar" src={avatar} alt="John Gallego" />
+<button class="avatar" on:click={handleClick}>
+	<Img class="avatar-img" src={avatar} alt="John Gallego" />
 </button>
 
 <style>
-	.page-header-avatar {
+	.avatar {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -26,12 +26,12 @@
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
 
-	.page-header-avatar > :global(picture) {
+	.avatar > :global(picture) {
 		width: 100%;
 		height: 100%;
 	}
 
-	.page-header-avatar :global(.avatar) {
+	.avatar :global(.avatar-img) {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
