@@ -1,7 +1,11 @@
+<script lang="ts">
+	export let accomplishments: string[] = [];
+</script>
+
 <div class="work-experience">
 	<header>
-		<h2 class="role">
-			<slot name="role" />
+		<h2 class="title">
+			<slot name="title" />
 		</h2>
 
 		<h3 class="company">
@@ -19,6 +23,12 @@
 		</div>
 	</header>
 </div>
+
+<ul>
+	{#each accomplishments as accomplishment}
+		<li>{accomplishment}</li>
+	{/each}
+</ul>
 
 <style>
 	header {
