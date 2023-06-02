@@ -1,33 +1,26 @@
-<div class="skills">
-	<div class="side-by-side">
-		<div class="left-panel">
-			<h2 class="title">Programming Languages</h2>
+<article class="skills">
+	<h2 class="title">Programming Languages</h2>
 
-			<ul>
-				<li>JavaScript/TypeScript</li>
-				<li>PHP</li>
-				<li>C#</li>
-				<li>Python</li>
-				<li>Dart</li>
-			</ul>
-		</div>
+	<ul>
+		<li>JavaScript | TypeScript</li>
+		<li>PHP</li>
+		<li>C#</li>
+		<li>Python</li>
+		<li>Dart</li>
+	</ul>
 
-		<div class="right-panel">
-			<h2 class="title">Frameworks/Tech-Stacks</h2>
+	<h2 class="title">Frameworks/Tech-Stacks</h2>
 
-			<ul>
-				<li>Angular / Vue / React / Svelte</li>
-				<li>Node.js</li>
-				<li>Nest.js</li>
-				<li>Laravel</li>
-				<li>.NET Core</li>
-				<li>Google Cloud / Firebase</li>
-				<li>AWS / Lambda</li>
-				<li>MySQL / PostgreSQL / SQL Server</li>
-				<li>MongoDB / Couchbase / Cloud Firestore</li>
-			</ul>
-		</div>
-	</div>
+	<ul>
+		<li>Angular | Vue | Svelte | React</li>
+		<li>Node.js | Nest.js</li>
+		<li>Laravel</li>
+		<li>.NET</li>
+		<li>Google Cloud | Firebase</li>
+		<li>AWS | Lambda</li>
+		<li>MySQL | PostgreSQL | SQL Server</li>
+		<li>MongoDB | Couchbase | Cloud Firestore</li>
+	</ul>
 
 	<h2 class="title">Soft Skills</h2>
 
@@ -52,16 +45,16 @@
 			deadlines in high-pressure environments.
 		</li>
 	</ul>
-</div>
+</article>
 
 <style>
 	.title {
-		margin: 0 0 0.5rem 0;
+		margin-bottom: 1.5rem;
 		color: var(--color-text-contrast);
 	}
 
 	ul {
-		margin: 0;
+		margin-bottom: 1.5rem;
 		padding: 0 1.5rem 0 2rem;
 	}
 

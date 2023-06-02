@@ -5,7 +5,7 @@ export const workExperienceData = [
 		date: '2021 - Present',
 		location: 'Remote',
 		accomplishments: [
-			`Architected and developed a custom ecommerce platform, showcasing the company's innovative products, using Laravel for back-end and Vue.js with Nuxt for an app-like front-end experience.`,
+			`Architected and developed a custom ecommerce platform, showcasing the company's innovative products, using Laravel for back-end and Vue.js with Nuxt for an app-like front-end experience. Achieved a 99% Lighthouse score and 100% accessibility score.`,
 			`Designed and implemented a unique, AI-driven digital product that provided personalized fitness recommendations and meal plans based on an extensive database of over a thousand tailored recipes, utilizing a Laravel back-end and Angular front-end.`,
 			`Maintained and troubleshooted a high-traffic PHP sales funnel platform, processing thousands of daily transactions and managing extensive sales tracking data to optimize revenue generation.`
 		]
@@ -28,7 +28,7 @@ export const workExperienceData = [
 		date: '2013 - 2018',
 		location: 'NYC',
 		accomplishments: [
-			`Spearheaded the development and optimization of front-end architectures for an online survey platform with complex logic requirements, using modern frameworks such as Angular, React and .Net.`,
+			`Spearheaded the development and optimization of front-end architectures for an online survey platform with complex logic requirements using modern frameworks such as Angular, React and .Net.`,
 			`Created UX/UI designs and turned them into responsive, scalable, and visually appealing user interfaces.`,
 			`Implemented performance enhancements and code refactoring initiatives, improving application load times and overall user experience.`,
 			`Provided technical mentorship to junior front-end engineers, fostering a culture of continuous learning and professional growth.`
@@ -40,8 +40,8 @@ export const workExperienceData = [
 		date: '2009 - 2013',
 		location: 'Secaucus, NJ',
 		accomplishments: [
-			`Developed, tested, and maintained high-quality, scalable software solutions across various platforms including C#/.Net and web appliuations.`,
-			`Collaborated closely with data anlysis and reporting teams to identify issues in existing workflows and implement effective software solutions.`,
+			`Developed, tested, and maintained high-quality, scalable software solutions across various platforms including C#/.Net and web applications.`,
+			`Collaborated closely with data analysis and reporting teams to identify issues in existing workflows and implement effective software solutions.`,
 			`Utilized a diverse range of programming languages, including C#, PHP, and JavaScript, to ensure optimal software functionality.`,
 			`Engaged in regular code reviews, refining coding standards and best practices within the organization.`
 		]
@@ -54,7 +54,7 @@ export const workExperienceData = [
 		accomplishments: [
 			`Analyzed vast datasets to uncover trends and insights that informed data-driven business decisions for clients.`,
 			`Developed compelling, interactive data visualizations utilizing tools such as D3.js, facilitating efficient communication of complex findings to stakeholders.`,
-			`Implemented custom ETL processes to cleanse, transform, and store data from various sources, ensuring accurate and reliable analysis.`,
+			`Implemented custom ETL processes to cleanse, transform, and store data from various sources, ensuring accurate and reliable analysis.`
 		]
 	}
 ];

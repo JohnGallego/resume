@@ -5,6 +5,10 @@
 	import { workExperienceData } from '$lib/data/work-experience';
 </script>
 
+<svelte:head>
+	<title>John Gallego | Digital Resume</title>
+</svelte:head>
+
 <main>
 	<div class="left-panel">
 		<section class="contact">
@@ -15,7 +19,7 @@
 			<b>Located:</b> Jersey City, NJ
 		</section>
 
-		<ResumeSection>
+		<ResumeSection class="professional-summary">
 			<svelte:fragment slot="title">Professional Summary</svelte:fragment>
 
 			<svelte:fragment slot="content">
@@ -77,6 +81,10 @@
 	.left-panel {
 		display: flex;
 		flex-direction: column;
+	}
+
+	:global(.professional-summary p:not(:last-child)) {
+		margin-bottom: 1.5rem;
 	}
 
 	section.contact {

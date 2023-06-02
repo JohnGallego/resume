@@ -1,4 +1,4 @@
-<section class="resume-section">
+<section class="resume-section {$$props.class}">
 	<h1 class="title">
 		<slot name="title" />
 	</h1>
@@ -17,8 +17,8 @@
 	}
 
 	.title {
-		margin: 0 0 1rem 0;		
-		margin-bottom: 2rem;
+		margin: 0 0 1rem 0;
+		margin-bottom: 3rem;
 	}
 
 	.title::after {
