@@ -56,18 +56,17 @@
 
 <style>
 	.title {
-		margin-bottom: 0.5rem;
-		font-size: 1rem;
-		font-weight: 600;
-		letter-spacing: 2px;
+		margin: 0 0 0.5rem 0;
 		color: var(--color-text-contrast);
 	}
 
 	ul {
+		margin: 0;
+		padding: 0 1.5rem 0 2rem;
 	}
 
 	ul li {
 		margin-bottom: 0.5rem;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 </style>

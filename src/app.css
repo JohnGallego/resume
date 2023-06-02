@@ -9,6 +9,12 @@
 }
 
 /* Global styles */
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
 html {
 	margin: 0;
 	height: 100%;
@@ -18,7 +24,25 @@ body {
 	margin: 0;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
-	background-color: var(--color-bg-content);
 	font-weight: 300;
+	background-color: var(--color-bg-content);
 	color: var(--color-text);
+}
+
+h1 {
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
 }

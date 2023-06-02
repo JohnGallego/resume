@@ -2,7 +2,7 @@
 	import ResumeSection from '$lib/components/resume-section.svelte';
 	import Skills from '$lib/components/skills.svelte';
 	import WorkExperience from '$lib/components/work-experience.svelte';
-	import { workExperienceData } from '$lib/data/work-experience.ts';
+	import { workExperienceData } from '$lib/data/work-experience';
 </script>
 
 <main>
