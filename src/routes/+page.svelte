@@ -65,6 +65,14 @@
 				{/each}
 			</svelte:fragment>
 		</ResumeSection>
+
+		<ResumeSection>
+			<svelte:fragment slot="title">Education</svelte:fragment>
+
+			<svelte:fragment slot="content">
+				Hudson County College — Computer Science (AS) 2001 - 2003, JERSEY CITY NJ
+			</svelte:fragment>
+		</ResumeSection>
 	</div>
 
 	<div class="right-panel" />
