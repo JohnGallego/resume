@@ -25,10 +25,10 @@
 			<svelte:fragment slot="content">
 				<p>
 					As a seasoned Full Stack Engineer, I bring over a decade of hands-on experience, including
-					8+ years in front-end development and 2+ years in back-end development. My expertise spans
-					JavaScript/TypeScript, Node.js, PHP, Python, and C#, with a track record of creating and
-					optimizing complex web applications for startups, enterprise-level corporations, and small
-					businesses.
+					over 9 years years in front-end development and over three years in back-end development.
+					My expertise spans JavaScript/TypeScript, Node.js, PHP, Python, and C#, with a track
+					record of creating and optimizing complex web applications for startups, enterprise-level
+					corporations, and small businesses.
 				</p>
 
 				<p>

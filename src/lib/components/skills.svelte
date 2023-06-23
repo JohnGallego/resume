@@ -2,29 +2,32 @@
 	<h2 class="title">Programming Languages</h2>
 
 	<ul>
-		<li>JavaScript | TypeScript</li>
+		<li>JavaScript / TypeScript</li>
 		<li>PHP</li>
 		<li>C#</li>
 		<li>Python</li>
 		<li>Dart</li>
+		<li>C++</li>
+		<li>Java</li>
+		<li>Rust</li>
 	</ul>
 
 	<h2 class="title">Frameworks/Tech-Stacks</h2>
 
 	<ul>
-		<li>Angular | Vue | Svelte | React</li>
-		<li>Node.js | Nest.js</li>
+		<li>Angular / Vue / Svelte / React</li>
+		<li>Node.js / Nest.js</li>
 		<li>Laravel</li>
-		<li>.NET</li>
-		<li>Google Cloud | Firebase</li>
-		<li>AWS | Lambda</li>
-		<li>MySQL | PostgreSQL | SQL Server</li>
-		<li>MongoDB | Couchbase | Cloud Firestore</li>
+		<li>.NET Core</li>
+		<li>Google Cloud / Firebase</li>
+		<li>AWS / Lambda</li>
+		<li>MySQL / PostgreSQL / SQL Server</li>
+		<li>MongoDB / Couchbase / Cloud Firestore</li>
 	</ul>
 
 	<h2 class="title">Soft Skills</h2>
 
-	<ul>
+	<ul class="soft-skills">
 		<li>
 			<b>Problem Solving:</b> Proven ability to apply logical and creative thinking to solve complex
 			coding problems.
@@ -59,7 +62,11 @@
 	}
 
 	ul li {
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.75rem;
 		font-size: 0.9rem;
+	}
+
+	ul.soft-skills li {
+		margin-bottom: 1.5rem;
 	}
 </style>

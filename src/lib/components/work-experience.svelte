@@ -4,34 +4,34 @@
 
 <div class="work-experience">
 	<header>
-		<h2 class="title">
-			<slot name="title" />
-		</h2>
+		<div class="title-company">
+			<h2 class="title">
+				<slot name="title" />
+			</h2>
 
-		<div class="info">
 			<h3 class="company">
 				<slot name="company" />
 			</h3>
+		</div>
 
-			<div class="right">
-				<span class="date">
-					<i
-						class="fa-duotone fa-calendar-days fa-sm"
-						style="--fa-primary-color: #41576c; --fa-secondary-color: #9b8676; --fa-secondary-opacity: 1;"
-					/>
+		<div class="date-location">
+			<span class="date">
+				<i
+					class="fa-duotone fa-calendar-days fa-sm"
+					style="--fa-primary-color: #41576c; --fa-secondary-color: #9b8676; --fa-secondary-opacity: 1;"
+				/>
 
-					<slot name="date" />
-				</span>
+				<slot name="date" />
+			</span>
 
-				<span class="location">
-					<i
-						class="fa-duotone fa-location-dot fa-sm"
-						style="--fa-primary-color: #41576c; --fa-secondary-color: #9b8676; --fa-secondary-opacity: 1;"
-					/>
+			<span class="location">
+				<i
+					class="fa-duotone fa-location-dot fa-sm"
+					style="--fa-primary-color: #41576c; --fa-secondary-color: #9b8676; --fa-secondary-opacity: 1;"
+				/>
 
-					<slot name="location" />
-				</span>
-			</div>
+				<slot name="location" />
+			</span>
 		</div>
 	</header>
 
@@ -49,13 +49,19 @@
 
 	header {
 		display: flex;
-		flex-direction: column;
 		margin-bottom: 1.5rem;
 	}
 
-	.info {
+	.title-company {
+		flex: 1 1 auto;
 		display: flex;
-		align-items: center;
+		flex-direction: column;
+	}
+
+	.date-location {
+		flex: 0 0 auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.company {
@@ -63,12 +69,6 @@
 		margin: 0;
 		font-size: 0.9rem;
 		color: var(--color-text-contrast);
-	}
-
-	.info .right {
-		flex: 0 0 auto;
-		display: flex;
-		flex-direction: column;
 	}
 
 	.date {
